@@ -1,9 +1,10 @@
 # Claude Progress — 智能电商推荐系统
 
-## 项目状态：Initializer 完成，等待 Feature 1 开始
+## 项目状态：F01 完成，等待 F02 开始
 
 ## 已完成
 - [2026-04-12] Initializer 阶段：App Spec 定稿，feature_list.json 拆解完成（12 个 feature），init.sh 就绪
+- [2026-04-12] F01 项目骨架：FastAPI + pydantic-settings 配置 + 目录结构
 
 ## 当前阻塞
 （无）
@@ -13,6 +14,7 @@
 - 库存校验为关键链路（强校验 + 缓存兜底），文案为可降级链路
 - 首期外部服务（Redis/Milvus）用 mock，后续按需接入真实服务
 - 演示环境使用模拟点击数据验证 A/B 效果
+- Python 环境注意：系统有 Python 3.11 和 3.13 两个版本，pip 默认装到 3.13，需用 python -m pip 确保装到 3.11；启动用 python -m uvicorn
 
 ## 下一步
-- 开始 Feature F01：项目骨架（FastAPI + 目录结构 + 配置系统）
+- 开始 Feature F02：Base Agent 框架（agent 循环 + 重试/超时 + 降级机制）

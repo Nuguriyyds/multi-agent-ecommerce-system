@@ -8,7 +8,7 @@
       "name": "项目骨架",
       "description": "FastAPI 应用脚手架、目录结构、pydantic-settings 配置系统、requirements.txt、.env.example",
       "priority": 1,
-      "status": "pending",
+      "status": "done",
       "depends_on": [],
       "acceptance_criteria": [
         "uvicorn main:app --host 0.0.0.0 --port 8000 启动无报错",
