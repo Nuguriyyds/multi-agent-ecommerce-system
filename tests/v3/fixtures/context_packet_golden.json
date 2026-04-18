@@ -1,0 +1,86 @@
+{
+  "session_id": "session-ctx",
+  "latest_user_message": "我想看 3000 元内的降噪耳机。",
+  "active_constraints": {
+    "category": "headphones",
+    "budget_max": 3000,
+    "scene": "commute"
+  },
+  "session_working_memory": {
+    "active_constraints": {
+      "category": "headphones",
+      "budget_max": 3000
+    },
+    "current_candidates": [
+      {
+        "sku": "sku-1",
+        "name": "Sony WH-1000XM5"
+      }
+    ],
+    "unanswered_clarifications": [
+      {
+        "slot": "wear_style",
+        "question": "你更偏好头戴还是入耳？"
+      }
+    ],
+    "comparison_dimensions": [
+      "price",
+      "battery"
+    ],
+    "memory_conflicts": [
+      {
+        "key": "brand_preference",
+        "values": [
+          "Sony",
+          "Bose"
+        ]
+      }
+    ],
+    "scene": "commute"
+  },
+  "durable_user_memory": {
+    "budget": {
+      "max": 3000,
+      "currency": "CNY"
+    }
+  },
+  "confirmed_preferences": {
+    "budget": {
+      "max": 3000,
+      "currency": "CNY"
+    }
+  },
+  "current_candidates": [
+    {
+      "sku": "sku-1",
+      "name": "Sony WH-1000XM5"
+    }
+  ],
+  "comparison_dimensions": [
+    "price",
+    "battery"
+  ],
+  "unanswered_clarifications": [
+    {
+      "slot": "wear_style",
+      "question": "你更偏好头戴还是入耳？"
+    }
+  ],
+  "memory_conflicts": [
+    {
+      "key": "brand_preference",
+      "values": [
+        "Sony",
+        "Bose"
+      ]
+    }
+  ],
+  "recent_observation_ids": [
+    "obs-1"
+  ],
+  "compression_policy": {
+    "max_messages": 8,
+    "keep_sections": [],
+    "pinned_keys": []
+  }
+}
