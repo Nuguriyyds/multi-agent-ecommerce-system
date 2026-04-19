@@ -38,6 +38,7 @@ Thumbs.db
 # IDE
 .vscode/
 .cursor/
+.claude/settings.local.json
 
 # Docker
 docker-compose.override.yml
